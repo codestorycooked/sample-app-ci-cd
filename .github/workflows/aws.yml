@@ -78,5 +78,5 @@ jobs:
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: sample-service
-        cluster: sample-app-cluster
+        cluster:  SampleCdkAwsCicdStack-EcsDefaultClusterMnL3mNNYN926A5246-3ISARFDNDVI9
         wait-for-service-stability: true
